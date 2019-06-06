@@ -1,0 +1,124 @@
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.profilo {
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.contenuto { 
+    border: white;
+    margin: 40px 200px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 6px
+}
+
+h1 {
+    color: black; 
+    font-size: 40px;
+}
+
+h2 {
+    color:grey;
+    font-size: 30px
+}
+
+.bottone{
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none
+}
+
+.icona {
+    color: black;
+    font-size: 50px
+}
+
+.lista {
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding: 5px
+}
+
+h3{
+    color: grey; 
+    font-size: 25px
+}
+
+ul{
+    padding: 0px
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-left: 0;
+    left: 0;
+}
+
+.lista2{
+    display: inline;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.categorie{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.categorie:hover{
+    background-color: lightgray
+}
+
+#aiuto{
+    float: right;
+    border-right: none;
+}
+
+@media (max-width: 960px) {
+    .contenuto {
+      width: 700px;
+    }
+  }
+
+@media (max-width: 720px) {
+    .contenuto {
+      width: 100px;
+    }
+}
+
+@media (max-width: 540px) {
+    .contenuto {
+      width: 300px;
+    }
+  }
+
