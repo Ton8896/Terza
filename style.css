@@ -72,7 +72,7 @@ ul{
     margin: 0;
     padding: 0;
     background-color: gray;
-    height: 50px;
+    height: 40px;
     overflow: hidden;
     position: fixed;
     width: 100%;
@@ -82,9 +82,10 @@ ul{
 }
 
 .lista2{
-    display: inline;
+    display: block;
     float: left;
     border-right: 1px solid white;
+    padding: 0;
 }
 
 .categorie{
@@ -93,6 +94,7 @@ ul{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: cursive;
 }
 
 .categorie:hover{
@@ -102,6 +104,10 @@ ul{
 #aiuto{
     float: right;
     border-right: none;
+}
+
+#active{
+    background-color: green
 }
 
 @media (max-width: 960px) {
